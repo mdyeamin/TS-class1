@@ -2,20 +2,20 @@ function getLowerCase(str: string) {
   const x = str.toLowerCase();
   return x;
 }
-console.log(getLowerCase("Hello WOrld"));
+// console.log(getLowerCase("Hello WOrld"));
 
 function add(number1: number, number2: number): number {
   return number1 + number2;
 }
 
-console.log(add(1,1));
+// console.log(add(1,1));
 
 
 const sub =(num1:number,num2:number)=>{
 return num1-num2
 }
 
-console.log(sub(2,3));
+// console.log(sub(2,3));
 
 const arr:number[] = [124,355,674];
 const str1:string[]= ['234','132']
@@ -39,4 +39,13 @@ const person2: IPerson={
 name:'ex',
 age:1
 }
+
+enum colors{
+  color1="colorOne",
+  color2="colortow",
+  color3="colorThree"
+}
+
+console.log(colors.color3);
+
 
