@@ -48,4 +48,11 @@ enum colors{
 
 console.log(colors.color3);
 
+const arr2:Array< number | string> = [123,345,"reg"]
 
+// function _concat <T> (a: T, b: T):T{
+//   return a.concat(b);
+// }
+
+// _concat<number>(1,2);
+// _concat<string>("reg","Ex");
